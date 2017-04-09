@@ -8,9 +8,9 @@ public class Entry {
 
 	@Test
 	public void testEntry(){
-		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
 		WebDriver driver =new FirefoxDriver();
-		driver.get("https://www.gmail.co.in");
+		driver.get("https://www.gmail.com");
 		driver.manage().window().maximize();
 		driver.quit();
 	}
