@@ -12,6 +12,7 @@ public class Entry {
 		WebDriver driver =new FirefoxDriver();
 		driver.get("https://www.gmail.co.in");
 		driver.manage().window().maximize();
+		driver.quit();
 	}
 	
 }
