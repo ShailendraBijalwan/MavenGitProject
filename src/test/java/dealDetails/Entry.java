@@ -11,6 +11,7 @@ public class Entry {
 		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
 		WebDriver driver =new FirefoxDriver();
 		driver.get("https://www.gmail.co.in");
+		>>>>>>>>>>>>>
 		driver.manage().window().maximize();
 		driver.quit();
 	}
